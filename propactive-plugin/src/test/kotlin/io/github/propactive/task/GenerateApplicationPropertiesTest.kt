@@ -129,6 +129,7 @@ internal class GenerateApplicationPropertiesTest {
         const val property = "test.resource.value"
     }
 
+    // TODO use me for the implementation
     private fun setupScenario(
         propertiesClass: Class<*>,
         callback: (Project, File) -> Unit
